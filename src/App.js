@@ -18,24 +18,7 @@ import { BloctoEvmWalletConnectors } from "@dynamic-labs/blocto-evm";
 function App() {
   return (
     <div className="App">
-      <DynamicContextProvider
-        settings={{
-          environmentId: "2762a57b-faa4-41ce-9f16-abff9300e2c9",
-          walletConnectorExtensions: [EthersExtension],
-          walletConnectors: [
-            EthereumWalletConnectors,
-            AlgorandWalletConnectors,
-            SolanaWalletConnectors,
-            FlowWalletConnectors,
-            StarknetWalletConnectors,
-            CosmosWalletConnectors,
-            MagicWalletConnectors,
-            BloctoEvmWalletConnectors,
-          ],
-        }}
-      >
-        <DynamicWidget />
-      </DynamicContextProvider>
+   hello
     </div>
   );
 }
